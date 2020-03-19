@@ -1,0 +1,233 @@
+01:18:57:757 [09480] | INFO  | Initializing crosire's ReShade version '4.5.4.775' (64-bit) built on '2020-02-07 23:52:14' loaded from "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\dxgi.dll" into "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\PES2020.exe" ...
+01:18:57:896 [09480] | INFO  | Registering hooks for "user32.dll" ...
+01:18:57:896 [09480] | INFO  | > Libraries loaded.
+01:18:57:897 [09480] | INFO  | > Found 13 match(es). Installing ...
+01:18:57:933 [09480] | INFO  | Registering hooks for "ws2_32.dll" ...
+01:18:57:933 [09480] | INFO  | > Libraries loaded.
+01:18:57:933 [09480] | INFO  | > Found 8 match(es). Installing ...
+01:18:57:968 [09480] | INFO  | Registering hooks for "C:\WINDOWS\system32\d3d9.dll" ...
+01:18:57:969 [09480] | INFO  | > Delayed.
+01:18:57:969 [09480] | INFO  | Registering hooks for "C:\WINDOWS\system32\d3d10.dll" ...
+01:18:57:969 [09480] | INFO  | > Delayed.
+01:18:57:969 [09480] | INFO  | Registering hooks for "C:\WINDOWS\system32\d3d10_1.dll" ...
+01:18:57:969 [09480] | INFO  | > Delayed.
+01:18:57:969 [09480] | INFO  | Registering hooks for "C:\WINDOWS\system32\d3d11.dll" ...
+01:18:57:969 [09480] | INFO  | > Libraries loaded.
+01:18:57:969 [09480] | INFO  | > Found 2 match(es). Installing ...
+01:18:58:004 [09480] | INFO  | Registering hooks for "C:\WINDOWS\system32\d3d12.dll" ...
+01:18:58:005 [09480] | INFO  | > Delayed.
+01:18:58:005 [09480] | INFO  | Registering hooks for "C:\WINDOWS\system32\dxgi.dll" ...
+01:18:58:005 [09480] | INFO  | > Delayed until first call to an exported function.
+01:18:58:005 [09480] | INFO  | Registering hooks for "C:\WINDOWS\system32\opengl32.dll" ...
+01:18:58:006 [09480] | INFO  | > Delayed.
+01:18:58:006 [09480] | INFO  | Initialized.
+01:18:58:318 [09480] | INFO  | Redirecting RegisterClassExW(lpWndClassEx = 0000000000147D00 { SteamWinsockInitFakeClass_1 }) ...
+01:18:58:318 [09480] | INFO  | > Adding 'CS_OWNDC' window class style flag to 'SteamWinsockInitFakeClass_1'.
+01:19:02:302 [09480] | INFO  | Installing delayed hooks for "C:\WINDOWS\system32\d3d12.dll" (Just loaded via LoadLibrary("ole32.dll")) ...
+01:19:02:302 [09480] | INFO  | > Found 7 match(es). Installing ...
+01:19:02:820 [09480] | INFO  | Redirecting D3D11CreateDevice(pAdapter = 0000000000000000, DriverType = 1, Software = 0000000000000000, Flags = 0, pFeatureLevels = 000000000014FAC0, FeatureLevels = 6, SDKVersion = 7, ppDevice = 000000000014FAB0, pFeatureLevel = 000000000014FAA0, ppImmediateContext = 000000000014FAA8) ...
+01:19:02:820 [09480] | INFO  | > Passing on to D3D11CreateDeviceAndSwapChain:
+01:19:02:820 [09480] | INFO  | Redirecting D3D11CreateDeviceAndSwapChain(pAdapter = 0000000000000000, DriverType = 1, Software = 0000000000000000, Flags = 0, pFeatureLevels = 000000000014FAC0, FeatureLevels = 6, SDKVersion = 7, pSwapChainDesc = 0000000000000000, ppSwapChain = 0000000000000000, ppDevice = 000000000014FAB0, pFeatureLevel = 000000000014FAA0, ppImmediateContext = 000000000014FAA8) ...
+01:19:02:820 [09480] | INFO  | Redirecting CreateDXGIFactory2(Flags = 2147483648, riid = {7B7166EC-21C7-44AE-B21A-C9AE321AE369}, ppFactory = 000000000014F238) ...
+01:19:02:824 [09480] | INFO  | Installing export hooks for "C:\WINDOWS\system32\dxgi.dll" ...
+01:19:02:824 [09480] | INFO  | > Found 7 match(es). Installing ...
+01:19:02:952 [09480] | INFO  | Redirecting CreateDXGIFactory1(riid = {770AAE78-F26F-4DBA-A829-253C83D1B387}, ppFactory = 000000000014B4D8) ...
+01:19:02:953 [09480] | INFO  | Redirecting D3D11CreateDevice(pAdapter = 0000000007E95D70, DriverType = 0, Software = 0000000000000000, Flags = 0, pFeatureLevels = 000000000014B650, FeatureLevels = 4, SDKVersion = 7, ppDevice = 0000000007F0EC38, pFeatureLevel = 0000000007F0EC74, ppImmediateContext = 0000000007F0EC40) ...
+01:19:02:953 [09480] | INFO  | > Passing on to D3D11CreateDeviceAndSwapChain:
+01:19:02:953 [09480] | INFO  | Redirecting D3D11CreateDeviceAndSwapChain(pAdapter = 0000000007E95D70, DriverType = 0, Software = 0000000000000000, Flags = 0, pFeatureLevels = 000000000014B650, FeatureLevels = 4, SDKVersion = 7, pSwapChainDesc = 0000000000000000, ppSwapChain = 0000000000000000, ppDevice = 0000000007F0EC38, pFeatureLevel = 0000000007F0EC74, ppImmediateContext = 0000000007F0EC40) ...
+01:19:02:972 [09480] | INFO  | > Using feature level 0xb100.
+01:19:02:993 [09480] | INFO  | Redirecting CreateDXGIFactory(riid = {7B7166EC-21C7-44AE-B21A-C9AE321AE369}, ppFactory = 000000000014B898) ...
+01:19:02:993 [09480] | INFO  | > Passing on to CreateDXGIFactory1:
+01:19:02:993 [09480] | INFO  | Redirecting CreateDXGIFactory1(riid = {7B7166EC-21C7-44AE-B21A-C9AE321AE369}, ppFactory = 000000000014B898) ...
+01:19:03:022 [09480] | INFO  | > Using feature level 0xb000.
+01:19:03:046 [09480] | INFO  | Redirecting CreateDXGIFactory(riid = {7B7166EC-21C7-44AE-B21A-C9AE321AE369}, ppFactory = 000000000014F7A8) ...
+01:19:03:046 [09480] | INFO  | > Passing on to CreateDXGIFactory1:
+01:19:03:046 [09480] | INFO  | Redirecting CreateDXGIFactory1(riid = {7B7166EC-21C7-44AE-B21A-C9AE321AE369}, ppFactory = 000000000014F7A8) ...
+01:19:03:048 [09480] | INFO  | Redirecting CreateDXGIFactory2(Flags = 0, riid = {1BC6EA02-EF36-464F-BF0C-21CA39E5168A}, ppFactory = 000000000014F968) ...
+01:19:03:260 [12436] | INFO  | Redirecting RegisterClassExW(lpWndClassEx = 00000000082CFD80 { eFootball PES 2020 }) ...
+01:19:03:260 [12436] | INFO  | > Adding 'CS_OWNDC' window class style flag to 'eFootball PES 2020'.
+01:19:04:733 [09480] | INFO  | Redirecting CreateDXGIFactory1(riid = {770AAE78-F26F-4DBA-A829-253C83D1B387}, ppFactory = 000000000014F638) ...
+01:19:04:743 [09480] | INFO  | Redirecting D3D11CreateDevice(pAdapter = 0000000000000000, DriverType = 1, Software = 0000000000000000, Flags = 0, pFeatureLevels = 000000000014F650, FeatureLevels = 1, SDKVersion = 7, ppDevice = 000000014377A0E0, pFeatureLevel = 000000014377A100, ppImmediateContext = 000000014377A0E8) ...
+01:19:04:743 [09480] | INFO  | > Passing on to D3D11CreateDeviceAndSwapChain:
+01:19:04:743 [09480] | INFO  | Redirecting D3D11CreateDeviceAndSwapChain(pAdapter = 0000000000000000, DriverType = 1, Software = 0000000000000000, Flags = 0, pFeatureLevels = 000000000014F650, FeatureLevels = 1, SDKVersion = 7, pSwapChainDesc = 0000000000000000, ppSwapChain = 0000000000000000, ppDevice = 000000014377A0E0, pFeatureLevel = 000000014377A100, ppImmediateContext = 000000014377A0E8) ...
+01:19:04:743 [09480] | INFO  | Redirecting CreateDXGIFactory2(Flags = 2147483648, riid = {7B7166EC-21C7-44AE-B21A-C9AE321AE369}, ppFactory = 000000000014ED08) ...
+01:19:04:821 [09480] | INFO  | Redirecting CreateDXGIFactory1(riid = {770AAE78-F26F-4DBA-A829-253C83D1B387}, ppFactory = 000000000014AFA8) ...
+01:19:04:822 [09480] | INFO  | Redirecting D3D11CreateDevice(pAdapter = 0000000007E97580, DriverType = 0, Software = 0000000000000000, Flags = 0, pFeatureLevels = 000000000014B120, FeatureLevels = 4, SDKVersion = 7, ppDevice = 0000000004142098, pFeatureLevel = 00000000041420D4, ppImmediateContext = 00000000041420A0) ...
+01:19:04:822 [09480] | INFO  | > Passing on to D3D11CreateDeviceAndSwapChain:
+01:19:04:822 [09480] | INFO  | Redirecting D3D11CreateDeviceAndSwapChain(pAdapter = 0000000007E97580, DriverType = 0, Software = 0000000000000000, Flags = 0, pFeatureLevels = 000000000014B120, FeatureLevels = 4, SDKVersion = 7, pSwapChainDesc = 0000000000000000, ppSwapChain = 0000000000000000, ppDevice = 0000000004142098, pFeatureLevel = 00000000041420D4, ppImmediateContext = 00000000041420A0) ...
+01:19:04:844 [09480] | INFO  | > Using feature level 0xb100.
+01:19:04:853 [09480] | INFO  | Redirecting CreateDXGIFactory(riid = {7B7166EC-21C7-44AE-B21A-C9AE321AE369}, ppFactory = 000000000014B368) ...
+01:19:04:853 [09480] | INFO  | > Passing on to CreateDXGIFactory1:
+01:19:04:853 [09480] | INFO  | Redirecting CreateDXGIFactory1(riid = {7B7166EC-21C7-44AE-B21A-C9AE321AE369}, ppFactory = 000000000014B368) ...
+01:19:04:858 [09480] | INFO  | > Using feature level 0xb000.
+01:19:04:858 [09480] | INFO  | Redirecting ID3D11Device1::CreateDeferredContext1(this = 0000000007DB73B0, ContextFlags = 0, ppDeferredContext = 000000000014F610) ...
+01:19:04:859 [09480] | INFO  | Redirecting ID3D11Device1::CreateDeferredContext1(this = 0000000007DB73B0, ContextFlags = 0, ppDeferredContext = 000000000014F610) ...
+01:19:04:925 [12436] | INFO  | Redirecting CreateDXGIFactory1(riid = {770AAE78-F26F-4DBA-A829-253C83D1B387}, ppFactory = 00000000082CF680) ...
+01:19:04:927 [12436] | INFO  | Redirecting IDXGIFactory::CreateSwapChain(this = 0000000004111670, pDevice = 0000000007DB73B0, pDesc = 00000000082CF8C0, ppSwapChain = 00000000082CF8B0) ...
+01:19:04:927 [12436] | INFO  | > Dumping swap chain description:
+01:19:04:927 [12436] | INFO  |   +-----------------------------------------+-----------------------------------------+
+01:19:04:927 [12436] | INFO  |   | Parameter                               | Value                                   |
+01:19:04:927 [12436] | INFO  |   +-----------------------------------------+-----------------------------------------+
+01:19:04:927 [12436] | INFO  |   | Width                                   | 1920                                    |
+01:19:04:927 [12436] | INFO  |   | Height                                  | 1080                                    |
+01:19:04:927 [12436] | INFO  |   | RefreshRate                             | 0                   0                   |
+01:19:04:927 [12436] | INFO  |   | Format                                  | 28                                      |
+01:19:04:927 [12436] | INFO  |   | ScanlineOrdering                        | 0                                       |
+01:19:04:927 [12436] | INFO  |   | Scaling                                 | 0                                       |
+01:19:04:927 [12436] | INFO  |   | SampleCount                             | 1                                       |
+01:19:04:927 [12436] | INFO  |   | SampleQuality                           | 0                                       |
+01:19:04:927 [12436] | INFO  |   | BufferUsage                             | 32                                      |
+01:19:04:927 [12436] | INFO  |   | BufferCount                             | 3                                       |
+01:19:04:927 [12436] | INFO  |   | OutputWindow                            | 000000000031103C                        |
+01:19:04:927 [12436] | INFO  |   | Windowed                                | FALSE                                   |
+01:19:04:927 [12436] | INFO  |   | SwapEffect                              | 0                                       |
+01:19:04:927 [12436] | INFO  |   | Flags                                   | 0x2                                     |
+01:19:04:927 [12436] | INFO  |   +-----------------------------------------+-----------------------------------------+
+01:19:10:650 [12436] | INFO  | Recreated runtime environment on runtime 0000000018B48470.
+01:19:13:449 [09480] | INFO  | Redirecting CreateDXGIFactory1(riid = {770AAE78-F26F-4DBA-A829-253C83D1B387}, ppFactory = 000000000014F6C0) ...
+01:19:13:454 [09480] | INFO  | Redirecting CreateDXGIFactory1(riid = {770AAE78-F26F-4DBA-A829-253C83D1B387}, ppFactory = 000000000014F700) ...
+01:19:13:457 [09480] | INFO  | Redirecting CreateDXGIFactory1(riid = {770AAE78-F26F-4DBA-A829-253C83D1B387}, ppFactory = 000000000014F700) ...
+01:19:13:461 [09480] | INFO  | Redirecting CreateDXGIFactory1(riid = {770AAE78-F26F-4DBA-A829-253C83D1B387}, ppFactory = 000000000014F6B0) ...
+01:19:13:528 [09480] | INFO  | Redirecting CreateDXGIFactory1(riid = {770AAE78-F26F-4DBA-A829-253C83D1B387}, ppFactory = 000000000014F5A0) ...
+01:19:13:532 [09480] | INFO  | Redirecting CreateDXGIFactory1(riid = {770AAE78-F26F-4DBA-A829-253C83D1B387}, ppFactory = 000000000014F5E0) ...
+01:19:13:535 [09480] | INFO  | Redirecting CreateDXGIFactory1(riid = {770AAE78-F26F-4DBA-A829-253C83D1B387}, ppFactory = 000000000014F5E0) ...
+01:19:13:539 [09480] | INFO  | Redirecting CreateDXGIFactory1(riid = {770AAE78-F26F-4DBA-A829-253C83D1B387}, ppFactory = 000000000014F590) ...
+01:19:13:596 [19084] | WARN  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\Amiga.fx" with warnings:
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\Amiga.fx(82, 1): warning X4576: 'uv': pixel shader signature does not match vertex shader one
+
+01:19:13:597 [11104] | WARN  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\ntsc.fx" with warnings:
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\ntsc.fx(168, 1): warning X4576: 'texcoord': pixel shader signature does not match vertex shader one
+
+01:19:13:600 [09668] | WARN  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\EasyVHS.fx" with warnings:
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\EasyVHS.fx(330, 14): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\EasyVHS.fx(345, 14): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\EasyVHS.fx(356, 14): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\EasyVHS.fx(390, 14): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\EasyVHS.fx(391, 14): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\EasyVHS.fx(411, 16): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\EasyVHS.fx(416, 20): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\EasyVHS.fx(425, 1): warning X4576: 'uv': pixel shader signature does not match vertex shader one
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\EasyVHS.fx(434, 1): warning X4576: 'uv': pixel shader signature does not match vertex shader one
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\EasyVHS.fx(443, 1): warning X4576: 'uv': pixel shader signature does not match vertex shader one
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\EasyVHS.fx(452, 1): warning X4576: 'uv': pixel shader signature does not match vertex shader one
+
+01:19:13:610 [19084] | WARN  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\BasicCRT.fx" with warnings:
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\BasicCRT.fx(38, 1): warning X4576: 'uv': pixel shader signature does not match vertex shader one
+
+01:19:13:626 [09668] | INFO  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\EGAfilter.fx".
+01:19:13:635 [19084] | INFO  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\CA.fx".
+01:19:13:974 [09668] | WARN  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\glitchb.fx" with warnings:
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\glitchb.fx(55, 30): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\glitchb.fx(55, 34): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\glitchb.fx(128, 1): warning X4576: 'fragCoord': pixel shader signature does not match vertex shader one
+
+01:19:14:020 [19084] | WARN  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\CRTAperture.fx" with warnings:
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\CRTAperture.fx(223, 15): warning X3206: implicit truncation of vector type
+
+01:19:14:035 [19084] | WARN  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\CRTcgwg.fx" with warnings:
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\CRTcgwg.fx(87, 14): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\CRTcgwg.fx(88, 15): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\CRTcgwg.fx(108, 16): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\CRTcgwg.fx(108, 32): warning X3206: implicit truncation of vector type
+
+01:19:14:037 [09668] | WARN  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\GraphicsAdapterPro.fx" with warnings:
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\GraphicsAdapterPro.fx(415, 5): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\GraphicsAdapterPro.fx(421, 5): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\GraphicsAdapterPro.fx(427, 24): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\GraphicsAdapterPro.fx(427, 29): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\GraphicsAdapterPro.fx(444, 5): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\GraphicsAdapterPro.fx(447, 5): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\GraphicsAdapterPro.fx(453, 6): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\GraphicsAdapterPro.fx(456, 6): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\GraphicsAdapterPro.fx(490, 5): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\GraphicsAdapterPro.fx(516, 5): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\GraphicsAdapterPro.fx(521, 6): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\GraphicsAdapterPro.fx(523, 6): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\GraphicsAdapterPro.fx(653, 11): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\GraphicsAdapterPro.fx(661, 6): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\GraphicsAdapterPro.fx(740, 8): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\GraphicsAdapterPro.fx(746, 1): warning X4576: 'uv': pixel shader signature does not match vertex shader one
+
+01:19:14:068 [09668] | INFO  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\GTU.fx".
+01:19:14:157 [11104] | WARN  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\NTSC_RetroArch.fx" with warnings:
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\NTSC_RetroArch.fx(134, 8): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\NTSC_RetroArch.fx(399, 1): warning X4576: 'texcoord': pixel shader signature does not match vertex shader one
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\NTSC_RetroArch.fx(408, 1): warning X4576: 'texcoord': pixel shader signature does not match vertex shader one
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\NTSC_RetroArch.fx(414, 1): warning X4576: 'texcoord': pixel shader signature does not match vertex shader one
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\NTSC_RetroArch.fx(420, 1): warning X4576: 'texcoord': pixel shader signature does not match vertex shader one
+
+01:19:14:188 [19084] | INFO  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\CRTEasymode.fx".
+01:19:14:216 [11104] | INFO  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\RBM.fx".
+01:19:14:232 [19084] | INFO  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\CRTGeom.fx".
+01:19:14:251 [19084] | WARN  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\CRTHyllian.fx" with warnings:
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\CRTHyllian.fx(305, 1): warning X4576: 'uv': pixel shader signature does not match vertex shader one
+
+01:19:14:413 [09668] | INFO  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\HDR.fx".
+01:19:14:449 [19084] | WARN  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\CRTLottes.fx" with warnings:
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\CRTLottes.fx(334, 1): warning X4576: 'uv': pixel shader signature does not match vertex shader one
+
+01:19:14:536 [19084] | WARN  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\CRTMask.fx" with warnings:
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\CRTMask.fx(90, 8): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\CRTMask.fx(95, 1): warning X4576: 'uv': pixel shader signature does not match vertex shader one
+
+01:19:14:538 [09668] | INFO  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\Infinity.fx".
+01:19:14:548 [11104] | WARN  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\RetroTV.fx" with warnings:
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\RetroTV.fxh(293, 15): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\RetroTV.fxh(298, 11): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\RetroTV.fxh(326, 15): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\RetroTV.fxh(331, 11): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\RetroTV.fxh(359, 15): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\RetroTV.fxh(364, 11): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\RetroTV.fxh(374, 14): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\RetroTV.fxh(375, 15): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\RetroTV.fxh(376, 15): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\RetroTV.fxh(426, 14): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\RetroTV.fx(101, 1): warning X4576: 'texcoord': pixel shader signature does not match vertex shader one
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\RetroTV.fx(148, 1): warning X4576: 'texcoord': pixel shader signature does not match vertex shader one
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\RetroTV.fx(195, 1): warning X4576: 'texcoord': pixel shader signature does not match vertex shader one
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\RetroTV.fx(213, 1): warning X4576: 'texcoord': pixel shader signature does not match vertex shader one
+
+01:19:14:553 [09668] | WARN  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\LCD.fx" with warnings:
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\LCD.fx(41, 1): warning X4576: 'txcoord': pixel shader signature does not match vertex shader one
+
+01:19:14:564 [19084] | WARN  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\DitheringMegapack.fx" with warnings:
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\DitheringMegapack.fx(98, 1): warning X4576: 'texcoord': pixel shader signature does not match vertex shader one
+
+01:19:14:578 [11104] | WARN  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\SimpleDithering.fx" with warnings:
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\SimpleDithering.fx(37, 1): warning X4576: 'texcoord': pixel shader signature does not match vertex shader one
+
+01:19:14:582 [09668] | WARN  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\MattiasCRT.fx" with warnings:
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\MattiasCRT.fx(67, 1): warning X4576: 'txcoord': pixel shader signature does not match vertex shader one
+
+01:19:14:634 [09668] | WARN  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\MetaCRT.fx" with warnings:
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\MetaCRT.fx(299, 1): warning X4576: 'uv': pixel shader signature does not match vertex shader one
+
+01:19:14:644 [11104] | WARN  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\TVCRTPixels.fx" with warnings:
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\TVCRTPixels.fx(50, 1): warning X4576: 'uv': pixel shader signature does not match vertex shader one
+
+01:19:14:687 [11104] | ERROR | Failed to compile "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\VHS.fx":
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\VHS.fx(271, 15): error X3004: undeclared identifier or no matching intrinsic overload for 'dot'
+
+01:19:14:706 [09668] | INFO  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\MotionBlur.fx".
+01:19:14:722 [11104] | WARN  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\VHSExperiment.fx" with warnings:
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\VHSExperiment.fx(178, 1): warning X4576: 'txcoord': pixel shader signature does not match vertex shader one
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\VHSExperiment.fx(183, 1): warning X4576: 'txcoord': pixel shader signature does not match vertex shader one
+
+01:19:14:829 [11104] | ERROR | Failed to compile "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\VHSPro.fx":
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\VHSPro.fx(9, 1): preprocessor warning: unknown pragma ignored
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\VHSPro.fx(465, 46): error X3538: value must be a literal scalar expression
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\VHSPro.fx(1019, 12): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\VHSPro.fx(1048, 12): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\VHSPro.fx(1657, 14): warning X3206: implicit truncation of vector type
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\VHSPro.fx(1666, 1): warning X4576: 'txcoord': pixel shader signature does not match vertex shader one
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\VHSPro.fx(1671, 1): warning X4576: 'txcoord': pixel shader signature does not match vertex shader one
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\VHSPro.fx(1701, 1): warning X4576: 'txcoord': pixel shader signature does not match vertex shader one
+
+01:19:14:873 [11104] | WARN  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\Voronoi.fx" with warnings:
+D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\Voronoi.fx(3, 23): warning X4717: type prefixes for annotations are deprecated and ignored
+
+01:19:14:922 [11104] | INFO  | Successfully loaded "D:\Program FilesSteam\steamapps\common\eFootball PES 2020\reshade-shaders\Shaders\Wave_BlockBackground.fx".
+01:19:14:952 [12436] | INFO  | Loading image files for textures ...
+01:19:44:414 [09480] | INFO  | Redirecting IDXGISwapChain::SetFullscreenState(this = 0000000018BCCFD0, Fullscreen = FALSE, pTarget = 0000000000000000) ...
+01:19:44:452 [09480] | INFO  | Destroyed runtime environment on runtime 0000000018B48470.
+01:19:44:452 [09480] | WARN  | Reference count for IDXGISwapChain4 object 0000000018BCCFD0 is inconsistent.
