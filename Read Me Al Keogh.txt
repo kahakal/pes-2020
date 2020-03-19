@@ -1,0 +1,12 @@
+Toggle On/OFF is Insert
+Home to get Reshade panel ON/OFF 
+
+Only used on Night Time Winter as Need to create differnet ones for day time / Summer
+
+Please Note this reshade has many shaders that reg reshade does not comes with. Always use my files to get it to work.
+
+V1 - Turn off either Fake Hdr or Hdr 
+
+V2 - Leave all
+
+V3 - Turn off either Fake Hdr or Hdr 
